@@ -12,6 +12,7 @@ function max(numbers) {
   return max;
 }
 
+
 function min(numbers) {
   let i = 0;
   let min = numbers[0];
@@ -24,8 +25,3 @@ function min(numbers) {
   return min;
 }
 
-function average(numbers) {
-  let sum = 0;
-  numbers.forEach(num => sum += num);
-  return sum / numbers.length;
-}
