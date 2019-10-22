@@ -11,7 +11,7 @@ function max(numbers) {
   }
   return max;
 }
-console.log(max([1,2,3,4,5]));
+
 
 function min(numbers) {
   let i = 0;
@@ -24,14 +24,3 @@ function min(numbers) {
   }
   return min;
 }
-console.log(min([1,2,34,5]));
-
-function average(nums) {
-  let sum = 0;
-  nums.forEach(element => {
-    sum += element;
-  });
-
-  return sum / nums.length;
-}
-console.log(average([1,1,1,1,1,1]));
